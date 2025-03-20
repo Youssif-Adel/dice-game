@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+</head>
+<body>
+
+    <div id="game-wrapper">
+        <div id="left-side" class="side active">
+            <div>
+                <h1>Player One</h1>
+                <h2 id="player-one-current-score">0</h2>
+            </div>
+
+            <div class="total-score-container" id="total-score-container-left">
+                <h1>Total score</h1>
+                <h2 id="player-one-total-score" >0</h2>
+            </div>
+        </div>
+
+        <div id="right-side" class="side">
+            <div>
+                <h1>Player Two</h1>
+                <h2 id="player-two-current-score" >0</h2>
+            </div>
+
+            <div class="total-score-container" id="total-score-container-right">
+                <h1>Total score</h1>
+                <h2 id="player-two-total-score" >0</h2>
+            </div>
+        </div>
+
+        <div id="controls-container">
+            <button class="button" id="new-game-button">New game</button>
+
+            <img src="dice-six-faces-one.png" id="image">
+
+            <div id="controls-container-bottom">
+                <div id="controls-container-bottom-buttons">
+                    <button class="button" id="roll-button">Roll</button>
+
+                    <button class="button" id="hold-button">Hold</button>
+                </div>
+
+                <div>
+
+                </div>
+                <h1 id="winner-text"></h1>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
